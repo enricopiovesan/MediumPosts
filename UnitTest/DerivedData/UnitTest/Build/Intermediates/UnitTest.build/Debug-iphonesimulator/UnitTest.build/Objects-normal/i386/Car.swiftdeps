@@ -1,0 +1,181 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Car"
+- "CarType"
+- "CarTransmissionMode"
+- "=="
+- "=="
+provides-nominal:
+- "C8UnitTest3Car"
+- "O8UnitTest7CarType"
+- "O8UnitTest19CarTransmissionMode"
+provides-member:
+- ["C8UnitTest3Car", ""]
+- ["O8UnitTest7CarType", ""]
+- ["O8UnitTest19CarTransmissionMode", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "IntegerLiteralType"
+- "Int"
+- "CarTransmissionMode"
+- "FloatLiteralType"
+- "Car"
+- "CarType"
+- !private "*"
+- !private "/"
+depends-member:
+- !private ["Ps9AnyObject", "miles"]
+- !private ["Ps9AnyObject", "transmissionMode"]
+- !private ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["C8UnitTest3Car", "CarTransmissionMode"]
+- ["C8UnitTest3Car", "CarType"]
+- ["C8UnitTest3Car", "Int"]
+- ["C8UnitTest3Car", "deinit"]
+- ["C8UnitTest3Car", "init"]
+- ["C8UnitTest3Car", "miles"]
+- ["C8UnitTest3Car", "start"]
+- ["C8UnitTest3Car", "transmissionMode"]
+- ["C8UnitTest3Car", "type"]
+- ["O8UnitTest19CarTransmissionMode", "=="]
+- ["O8UnitTest19CarTransmissionMode", "Drive"]
+- ["O8UnitTest19CarTransmissionMode", "Neutral"]
+- ["O8UnitTest19CarTransmissionMode", "Park"]
+- ["O8UnitTest19CarTransmissionMode", "Reverse"]
+- ["O8UnitTest19CarTransmissionMode", "_toAnyHashable"]
+- ["O8UnitTest19CarTransmissionMode", "deinit"]
+- ["O8UnitTest19CarTransmissionMode", "hashValue"]
+- ["O8UnitTest7CarType", "=="]
+- ["O8UnitTest7CarType", "Economy"]
+- ["O8UnitTest7CarType", "OffRoad"]
+- ["O8UnitTest7CarType", "Sport"]
+- ["O8UnitTest7CarType", "_toAnyHashable"]
+- ["O8UnitTest7CarType", "deinit"]
+- ["O8UnitTest7CarType", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Drive"]
+- !private ["Ps28CustomDebugStringConvertible", "Economy"]
+- !private ["Ps28CustomDebugStringConvertible", "OffRoad"]
+- !private ["Ps28CustomDebugStringConvertible", "Sport"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Drive"]
+- !private ["Ps17CustomReflectable", "Economy"]
+- !private ["Ps17CustomReflectable", "OffRoad"]
+- !private ["Ps17CustomReflectable", "Sport"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps9Equatable", "Drive"]
+- !private ["Ps9Equatable", "Economy"]
+- !private ["Ps9Equatable", "OffRoad"]
+- !private ["Ps9Equatable", "Sport"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps23ExpressibleByNilLiteral", "Drive"]
+- !private ["Ps23ExpressibleByNilLiteral", "Economy"]
+- !private ["Ps23ExpressibleByNilLiteral", "OffRoad"]
+- !private ["Ps23ExpressibleByNilLiteral", "Sport"]
+- !private ["Ps8Hashable", "Drive"]
+- !private ["Ps8Hashable", "Economy"]
+- !private ["Ps8Hashable", "OffRoad"]
+- !private ["Ps8Hashable", "Sport"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Sq", "Drive"]
+- !private ["Sq", "Economy"]
+- !private ["Sq", "OffRoad"]
+- !private ["Sq", "Sport"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "Drive"]
+- !private ["Ps9_Hashable", "Economy"]
+- !private ["Ps9_Hashable", "OffRoad"]
+- !private ["Ps9_Hashable", "Sport"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Vs26_OptionalNilComparisonType", "Drive"]
+- !private ["Vs26_OptionalNilComparisonType", "Economy"]
+- !private ["Vs26_OptionalNilComparisonType", "OffRoad"]
+- !private ["Vs26_OptionalNilComparisonType", "Sport"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- "C8UnitTest3Car"
+- "O8UnitTest19CarTransmissionMode"
+- "O8UnitTest7CarType"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Sq"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "149e2182efbfadef0d22e00d169a75de"

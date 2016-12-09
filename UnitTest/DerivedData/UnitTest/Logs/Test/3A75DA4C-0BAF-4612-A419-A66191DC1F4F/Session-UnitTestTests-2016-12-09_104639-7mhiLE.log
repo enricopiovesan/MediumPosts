@@ -1,0 +1,816 @@
+10:46:39.929 Xcode[1698:88429] Beginning test session UnitTestTests-EAC3C291-A9FC-4385-9C9B-D53F0E1CA198 at 2016-12-09 10:46:39.929 with Xcode 8A218a on target <DVTiPhoneSimulator: 0x7fdafd807330> {
+		SimDevice: SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }
+} (10.0 (14A345))
+10:46:39.930 Xcode[1698:88429] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+10:46:39.930 Xcode[1698:88429] Initializing test infrastructure.
+10:46:39.930 Xcode[1698:218435] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 4
+10:46:39.930 Xcode[1698:218435] Sim iPhone 5 is not booted, will wait up to 120 seconds.
+10:46:39.946 Xcode[1698:88429] Received Ready from iOSSimulator
+10:46:39.946 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdafa541bc0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+10:46:39.951 Xcode[1698:220322] FA7AD982-B1C4-4475-AACD-F60427D9F006: Received sim device notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:220309] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:218434] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:220309] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:218434] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:220322] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:220309] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:218434] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.952 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:220322] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:220309] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:233014] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:218434] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:233015] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.953 Xcode[1698:220322] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.954 Xcode[1698:220309] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.954 Xcode[1698:233014] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:39.954 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:46:46.391 Xcode[1698:88429] Launch session started, setting a disallow-finish-token on the run operation.
+10:46:46.407 Xcode[1698:88429] Adding console adaptor <IDEConsoleAdaptor: 0x7fdafedd5940 'target'> for test session EAC3C291-A9FC-4385-9C9B-D53F0E1CA198.
+10:46:46.413 Xcode[1698:88429] Received Ready from iOSSimulator
+10:46:46.413 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdafebe75d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+10:46:46.414 Xcode[1698:233365] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 5
+10:46:46.415 Xcode[1698:88429] Received Ready from iOSSimulator
+10:46:46.415 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdafeddeb70 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+10:46:50.972 Xcode[1698:233362] FA7AD982-B1C4-4475-AACD-F60427D9F006: Received sim device notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.972 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.972 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.972 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.972 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.973 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.973 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.973 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.973 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.973 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.974 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.974 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.974 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.975 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.975 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.975 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.975 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.976 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.976 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.976 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.976 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 7 Plus (FA7AD982-B1C4-4475-AACD-F60427D9F006) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:46:50.985 Xcode[1698:235050] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:233487] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:235049] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.985 Xcode[1698:235049] Got a sim device notification for iPhone 5: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:235049] Sim iPhone 5 state changed to 2
+10:46:50.986 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.986 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233012] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233487] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:50.987 Xcode[1698:233016] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:46:51.064 Xcode[1698:220315] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.064 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.064 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Received sim device notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.064 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233362] Got a sim device notification for iPhone 5: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233362] Sim iPhone 5 state changed to 3
+10:46:51.065 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.065 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:233011] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:233362] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:220315] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:235050] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:235049] /Users/enricopiovesan/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:46:51.066 Xcode[1698:233016] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 5
+10:46:51.066 Xcode[1698:218435] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 4
+10:46:51.067 Xcode[1698:218435] Sim iPhone 5 is booted (state = 3)
+10:46:51.067 Xcode[1698:218435] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:46:51.067 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Installing app at path: /Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app and options: {
+    CFBundleIdentifier = "none.UnitTest";
+}
+10:46:51.112 Xcode[1698:218435] Returning /private/tmp/com.apple.launchd.DrWAOukmjq/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+10:46:51.112 Xcode[1698:218435] Sim iPhone 5 has testmanagerd socket at /private/tmp/com.apple.launchd.DrWAOukmjq/com.apple.testmanagerd.unix-domain.socket
+10:46:51.112 Xcode[1698:218435] Connected socket 67 to testmanagerd for Sim iPhone 5
+10:46:51.112 Xcode[1698:218435] Creating the test bundle connection.
+10:46:51.112 Xcode[1698:218435] Listening for proxy connection request from the test bundle (all platforms)
+10:46:51.113 Xcode[1698:218435] Resuming the connection.
+10:46:51.113 Xcode[1698:218435] Test connection requires daemon assistance.
+10:46:51.113 Xcode[1698:88429] Starting test session with ID EAC3C291-A9FC-4385-9C9B-D53F0E1CA198
+10:46:51.114 Xcode[1698:88429] Checking test manager availability..., will wait up to 120s
+10:47:00.135 Xcode[1698:233012] testmanagerd handled session request.
+10:47:00.135 Xcode[1698:88429] Waiting for test process to launch.
+10:47:13.257 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Installed app at path: /Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app and options: {
+    CFBundleIdentifier = "none.UnitTest";
+}
+10:47:13.268 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 6
+10:47:13.268 Xcode[1698:235050] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 6
+10:47:13.269 Xcode[1698:88429] Received Ready from iOSSimulator
+10:47:13.269 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdb01952a60 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+10:47:13.996 Xcode[1698:233362] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Launching app with identifier: none.UnitTest and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app/UnitTest";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/y8/0p3zjr3s66z6k87rdx499p1h0000gn/T/com.apple.dt.XCTest/EAC3C291-A9FC-4385-9C9B-D53F0E1CA198/remote-container/tmp/UnitTestTests-EAC3C291-A9FC-4385-9C9B-D53F0E1CA198.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys007";
+    stdout = "/dev/ttys007";
+    "wait_for_debugger" = 1;
+}
+10:47:31.718 Xcode[1698:235050] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Launched app with identifier: none.UnitTest (pid = 2316)
+10:47:31.719 Xcode[1698:235050] Tracking pid 2316 for simulator <DVTiPhoneSimulator: 0x7fdafd807330> {
+		SimDevice: SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }
+}
+10:47:31.719 Xcode[1698:235050] Checking to see if pid 2316 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:47:31.719 Xcode[1698:235050] Setting up DVTNotifyOnProcDeath for pid 2316
+10:47:31.719 Xcode[1698:88429] Test process runnable PID is 2316.
+10:47:39.540 Xcode[1698:88429] Launch session finished initial intensive file IO.
+10:47:39.540 Xcode[1698:88429] Waiting for test process to check in..., will wait up to 120s
+10:47:40.745 Xcode[1698:233365] Got proxy channel request from test bundle
+10:47:40.746 Xcode[1698:233365] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+10:47:40.746 Xcode[1698:236962] Creating secondary transport and connection for whitelisting test process PID.
+10:47:40.746 Xcode[1698:236962] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 7
+10:47:40.746 Xcode[1698:236962] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 7
+10:47:40.746 Xcode[1698:236962] Sim iPhone 5 is booted (state = 3)
+10:47:40.746 Xcode[1698:236962] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:47:40.747 Xcode[1698:236962] Returning /private/tmp/com.apple.launchd.DrWAOukmjq/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+10:47:40.747 Xcode[1698:236962] Sim iPhone 5 has testmanagerd socket at /private/tmp/com.apple.launchd.DrWAOukmjq/com.apple.testmanagerd.unix-domain.socket
+10:47:40.747 Xcode[1698:236962] Connected socket 75 to testmanagerd for Sim iPhone 5
+10:47:40.747 Xcode[1698:236962] Creating the daemon control connection.
+10:47:40.747 Xcode[1698:236962] Resuming the secondary connection.
+10:47:40.748 Xcode[1698:236962] Whitelisting test process ID 2316
+10:47:40.755 Xcode[1698:236962] Got whitelisting response and daemon protocol version 22
+10:46:59.704 testmanagerd[2229:235128] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Thursday, August 25, 2016 at 12:08:19 AM Central European Summer Time
+10:47:00.086 testmanagerd[2229:235546] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+10:47:00.086 testmanagerd[2229:235128] Setting availability state.
+10:47:00.088 testmanagerd[2229:235546] Created session with socket 5
+10:47:00.089 testmanagerd[2229:235128] Posting availability to test bundles...
+10:47:00.121 testmanagerd[2229:235633] Handled a proxy request from the IDE with session <XCIDESession: 0x7a122b80> proxy <_DTXProxy: 0x7871e420>
+10:47:00.123 testmanagerd[2229:235128] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke EAC3C291-A9FC-4385-9C9B-D53F0E1CA198 1 5 from client 9E99E7DE-4526-4CD5-BCCB-29E126C29D6E-1698-00000B8F9DC4DAD2 (/Applications/Xcode.app)
+10:47:00.126 testmanagerd[2229:235546] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7a122b80> -> EAC3C291-A9FC-4385-9C9B-D53F0E1CA198
+10:47:00.135 testmanagerd[2229:235546] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+10:47:05.196 testmanagerd[2229:235128] Considering exiting, 0 test sessions, 1 sessions with identifiers, 0 unidentified sessions, does not have control session...
+10:47:40.550 testmanagerd[2229:235633] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+10:47:40.556 testmanagerd[2229:235128] Initial orientation 0
+10:47:40.563 testmanagerd[2229:240736] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "none.UnitTest";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 2316;
+    SBMostElevatedStateForProcessID = 8;
+}
+10:47:40.564 testmanagerd[2229:240735] Test session EAC3C291-A9FC-4385-9C9B-D53F0E1CA198 requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+10:47:40.564 testmanagerd[2229:240736] Got request for process assertion for pid 2316.
+10:47:40.565 testmanagerd[2229:235633] Test session EAC3C291-A9FC-4385-9C9B-D53F0E1CA198 requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+10:47:40.566 testmanagerd[2229:240736] Created process assertion for pid 2316: <BKSProcessAssertion: 0x7a1256a0>, waiting for response from assertiond.
+10:47:40.567 testmanagerd[2229:235633] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+10:47:40.568 testmanagerd[2229:240736] Starting to monitor none.UnitTest
+10:47:40.568 testmanagerd[2229:235633] Closing IDE connection before sending socket 7 to test host.
+10:47:40.570 testmanagerd[2229:235633] -[XCIDESession closeIDEConnection:] sending barrier
+10:47:40.570 testmanagerd[2229:240736] Got reply for process assertion request, success: YES
+10:47:40.570 testmanagerd[2229:240735] Got application state update: none.UnitTest (2316) -> 8
+10:47:40.572 testmanagerd[2229:235128] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+10:47:40.573 testmanagerd[2229:240733] DTXSocketTransport disconnected
+10:47:40.573 testmanagerd[2229:240735] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7a122b80>
+10:47:40.574 testmanagerd[2229:240735] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+10:47:40.741 testmanagerd[2229:235128] Sending socket 7 to test host
+10:47:40.742 testmanagerd[2229:240733] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7a122b80>
+10:47:40.743 testmanagerd[2229:240733] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+10:47:40.747 testmanagerd[2229:240733] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+10:47:40.771 testmanagerd[2229:235128] Received request to collect crash reports in directories '/Users/enricopiovesan/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'UnitTest', 'xctest'
+10:47:40.748 testmanagerd[2229:240733] Created session with socket 6
+10:47:40.752 testmanagerd[2229:235633] Handled a proxy request from the IDE with session <XCIDESession: 0x78726380> proxy <_DTXProxy: 0x7a126d90>
+10:47:40.753 testmanagerd[2229:235633] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 2316 22
+10:47:40.753 testmanagerd[2229:235128] Set control session <XCIDESession: 0x78726380> with proto 22 and proxy <_DTXProxy: 0x7a126d90>
+10:47:40.773 testmanagerd[2229:235128] Initializing crash report observer for /Users/enricopiovesan/Library/Logs/DiagnosticReports
+10:47:40.775 testmanagerd[2229:235128] Getting files in /Users/enricopiovesan/Library/Logs/DiagnosticReports
+10:47:40.793 testmanagerd[2229:235128] Found 30 files in /Users/enricopiovesan/Library/Logs/DiagnosticReports
+10:47:40.795 testmanagerd[2229:235128] Started monitoring /Users/enricopiovesan/Library/Logs/DiagnosticReports
+10:47:40.796 testmanagerd[2229:235128] Initializing crash report observer for /Library/Logs/DiagnosticReports
+10:47:40.797 testmanagerd[2229:235128] Getting files in /Library/Logs/DiagnosticReports
+10:47:40.867 testmanagerd[2229:235128] Found 124 files in /Library/Logs/DiagnosticReports
+10:47:40.869 testmanagerd[2229:235128] Started monitoring /Library/Logs/DiagnosticReports
+10:47:40.486 UnitTest[2316:239752] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Monday, August 29, 2016 at 4:34:55 AM Central European Summer Time
+10:47:40.499 UnitTest[2316:239752] System uptime: 3:34:05
+10:47:40.499 UnitTest[2316:239752] Process arguments: (
+    "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Bundle/Application/44EE1888-2C5C-431D-AA20-71FB52580428/UnitTest.app/UnitTest",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+10:47:40.499 UnitTest[2316:239752] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/E3B3B62F-483A-4B87-8B43-661B6E2F76F6";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.jG1wEOryD9/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/E3B3B62F-483A-4B87-8B43-661B6E2F76F6";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.A3C4EC49-8775-4809-A1E8-5E458C87A8FA.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data";
+    "IPHONE_SIMULATOR_CLASS" = N41;
+    "IPHONE_SIMULATOR_DEVICE" = iPhone;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/enricopiovesan";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/enricopiovesan/Library/Logs/CoreSimulator/A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone5,1";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14A345;
+    "SIMULATOR_RUNTIME_VERSION" = "10.0";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data";
+    "SIMULATOR_UDID" = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 303.8 - Device: iPhone 5 - Runtime: iOS 10.0 (14A345) - DeviceType: iPhone 5";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.DrWAOukmjq/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/E3B3B62F-483A-4B87-8B43-661B6E2F76F6/tmp";
+    XCInjectBundleInto = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app/UnitTest";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/y8/0p3zjr3s66z6k87rdx499p1h0000gn/T/com.apple.dt.XCTest/EAC3C291-A9FC-4385-9C9B-D53F0E1CA198/remote-container/tmp/UnitTestTests-EAC3C291-A9FC-4385-9C9B-D53F0E1CA198.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:none.UnitTest[0xb057]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.A3C4EC49-8775-4809-A1E8-5E458C87A8FA.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+}
+10:47:40.500 UnitTest[2316:239752] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+10:47:40.538 UnitTest[2316:239752] Session ID EAC3C291-A9FC-4385-9C9B-D53F0E1CA198
+10:47:40.538 UnitTest[2316:239752] Registering for testmanagerd availability notify post.
+10:47:40.539 UnitTest[2316:239752] testmanagerd availability confirmed via notify_get_state.
+10:47:40.539 UnitTest[2316:239752] Initiating connection to testmanagerd to request socket for IDE connection.
+10:47:40.540 UnitTest[2316:239752] Requesting socket
+10:47:40.564 UnitTest[2316:240724] Got daemon protocol version 6
+10:47:40.743 UnitTest[2316:240724] Got socket 7 from daemon, making connection to IDE
+10:47:40.743 UnitTest[2316:240724] Creating connection with transport
+10:47:40.743 UnitTest[2316:240724] Resuming connection
+10:47:40.744 UnitTest[2316:240724] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+10:47:40.878 UnitTest[2316:239752] -[XCTestDriver _runSuite]
+10:47:40.878 Xcode[1698:88429] Starting test plan, clearing initialization timeout timer.
+10:47:40.878 UnitTest[2316:239752] Loading test suite...
+10:47:40.880 UnitTest[2316:239752] Finished loading test suite, took 0.002s
+10:47:40.881 UnitTest[2316:239752] -[_XCTestDriverTestObserver testBundleWillStart:]
+10:47:40.881 UnitTest[2316:239752] Running suite...
+10:47:40.882 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteWillStart:]
+2016-12-09 10:47:40.270968 UnitTest[2316:240725] subsystem: com.apple.UIKit, category: HIDEventFiltered, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-12-09 10:47:40.287622 UnitTest[2316:240725] subsystem: com.apple.UIKit, category: HIDEventIncoming, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-12-09 10:47:40.341438 UnitTest[2316:240724] subsystem: com.apple.BaseBoard, category: MachPort, enable_level: 1, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+2016-12-09 10:47:40.398641 UnitTest[2316:239752] subsystem: com.apple.UIKit, category: StatusBar, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-12-09 10:47:40.473711 UnitTest[2316:239752] subsystem: com.apple.BackBoardServices.fence, category: App, enable_level: 1, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+Test Suite 'Selected tests' started at 2016-12-09 10:47:40.882
+10:47:40.890 Xcode[1698:235050] (LOG ARBITER) Dumping buffered message data; 0 messages.
+10:47:41.498 Xcode[1698:240739] (LOG ARBITER) Dumping buffered message data; 0 messages.
+10:47:40.884 Xcode[1698:88429] _XCT_testSuite:Selected tests didStartAt:2016-12-09 09:47:40 +0000
+10:47:40.884 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteWillStart:]
+10:47:40.886 Xcode[1698:88429] _XCT_testSuite:UnitTestTests.xctest didStartAt:2016-12-09 09:47:40 +0000
+10:47:40.885 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteWillStart:]
+10:47:40.886 Xcode[1698:88429] _XCT_testSuite:UnitTestTests didStartAt:2016-12-09 09:47:40 +0000
+Test Suite 'UnitTestTests.xctest' started at 2016-12-09 10:47:40.883
+Test Suite 'UnitTestTests' started at 2016-12-09 10:47:40.884
+Test Case '-[UnitTestTests.UnitTestTests testExample]' started.
+10:47:40.886 UnitTest[2316:239752] -[_XCTestDriverTestObserver testCaseWillStart:] UnitTestTests.UnitTestTests testExample
+10:47:40.888 Xcode[1698:88429] _XCT_testCaseDidStartForTestClass:UnitTestTests.UnitTestTests method:testExample
+10:47:40.888 UnitTest[2316:239752] -[_XCTestDriverTestObserver testCaseDidFinish:]
+10:47:40.890 Xcode[1698:88429] _XCT_testCaseDidFinishForTestClass:UnitTestTests.UnitTestTests method:testExample withStatus:passed duration:0.001771986484527588
+10:47:40.889 UnitTest[2316:239752] -[_XCTestDriverTestObserver testCaseWillStart:] UnitTestTests.UnitTestTests testPerformanceExample
+10:47:40.890 Xcode[1698:88429] _XCT_testCaseDidStartForTestClass:UnitTestTests.UnitTestTests method:testPerformanceExample
+Test Case '-[UnitTestTests.UnitTestTests testExample]' passed (0.002 seconds).
+Test Case '-[UnitTestTests.UnitTestTests testPerformanceExample]' started.
+10:47:41.495 UnitTest[2316:239752] -[_XCTestDriverTestObserver _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+/Users/enricopiovesan/Desktop/UnitTest/UnitTestTests/UnitTestTests.swift:33: Test Case '-[UnitTestTests.UnitTestTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 129.383%, values: [0.000008, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001, 0.000001], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+10:47:41.497 Xcode[1698:88429] -[IDETestOperationCoordinator _XCT_testMethod:ofClass:didMeasureMetric:file:line:]
+10:47:41.497 UnitTest[2316:239752] -[_XCTestDriverTestObserver testCaseDidFinish:]
+10:47:41.498 Xcode[1698:88429] _XCT_testCaseDidFinishForTestClass:UnitTestTests.UnitTestTests method:testPerformanceExample withStatus:passed duration:0.6083729863166809
+10:47:41.498 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+Test Case '-[UnitTestTests.UnitTestTests testPerformanceExample]' passed (0.608 seconds).
+Test Suite 'UnitTestTests' passed at 2016-12-09 10:47:41.498.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.610 (0.613) seconds
+Test Suite 'UnitTestTests.xctest' passed at 2016-12-09 10:47:41.499.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.610 (0.616) seconds
+Test Suite 'Selected tests' passed at 2016-12-09 10:47:41.500.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.610 (0.618) seconds
+10:47:41.550 Xcode[1698:88429] _XCT_testSuite:UnitTestTests didFinishAt:2016-12-09 09:47:41 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.6101449728012085 totalDuration:0.6132010221481323
+10:47:41.499 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+10:47:41.550 Xcode[1698:88429] _XCT_testSuite:UnitTestTests.xctest didFinishAt:2016-12-09 09:47:41 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.6101449728012085 totalDuration:0.6156219840049744
+10:47:41.500 UnitTest[2316:239752] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+10:47:41.550 Xcode[1698:88429] _XCT_testSuite:Selected tests didFinishAt:2016-12-09 09:47:41 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.6101449728012085 totalDuration:0.6180909872055054
+10:47:41.501 UnitTest[2316:239752] Finished running suite.
+10:47:41.501 UnitTest[2316:239752] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+10:47:41.551 Xcode[1698:88429] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+10:47:41.551 Xcode[1698:88429] _finishWithError:(null) didCancel: 0

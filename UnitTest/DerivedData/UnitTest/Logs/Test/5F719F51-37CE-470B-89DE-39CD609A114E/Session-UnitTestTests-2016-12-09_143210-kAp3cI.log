@@ -1,0 +1,247 @@
+14:32:10.146 Xcode[1698:88429] Beginning test session UnitTestTests-0E76FA54-12CC-4D16-A6D5-299293BD060C at 2016-12-09 14:32:10.142 with Xcode 8A218a on target <DVTiPhoneSimulator: 0x7fdafd807330> {
+		SimDevice: SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }
+} (10.0 (14A345))
+14:32:10.147 Xcode[1698:88429] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+14:32:10.148 Xcode[1698:88429] Initializing test infrastructure.
+14:32:10.148 Xcode[1698:1118194] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 13
+14:32:10.148 Xcode[1698:1118194] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 13
+14:32:10.148 Xcode[1698:1118194] Sim iPhone 5 is booted (state = 3)
+14:32:10.148 Xcode[1698:1118194] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+14:32:10.154 Xcode[1698:1118194] Returning /private/tmp/com.apple.launchd.Zd0Yi8sipq/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+14:32:10.154 Xcode[1698:1118194] Sim iPhone 5 has testmanagerd socket at /private/tmp/com.apple.launchd.Zd0Yi8sipq/com.apple.testmanagerd.unix-domain.socket
+14:32:10.154 Xcode[1698:1118194] Connected socket 97 to testmanagerd for Sim iPhone 5
+14:32:10.155 Xcode[1698:1118194] Creating the test bundle connection.
+14:32:10.155 Xcode[1698:1118194] Listening for proxy connection request from the test bundle (all platforms)
+14:32:10.155 Xcode[1698:1118194] Resuming the connection.
+14:32:10.155 Xcode[1698:1118194] Test connection requires daemon assistance.
+14:32:10.168 Xcode[1698:88429] Received Ready from iOSSimulator
+14:32:10.168 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdafe731c00 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+14:32:10.199 Xcode[1698:88429] Starting test session with ID 0E76FA54-12CC-4D16-A6D5-299293BD060C
+14:32:10.199 Xcode[1698:88429] Checking test manager availability..., will wait up to 120s
+14:32:15.498 Xcode[1698:88429] Launch session started, setting a disallow-finish-token on the run operation.
+14:32:15.527 Xcode[1698:88429] Received Ready from iOSSimulator
+14:32:15.527 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdafedef310 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+14:32:15.529 Xcode[1698:88429] Adding console adaptor <IDEConsoleAdaptor: 0x7fdafdd3a810 'target'> for test session 0E76FA54-12CC-4D16-A6D5-299293BD060C.
+14:32:15.538 Xcode[1698:1126319] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 14
+14:32:15.539 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 14
+14:32:15.542 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Installing app at path: /Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app and options: {
+    CFBundleIdentifier = "none.UnitTest";
+}
+14:32:15.548 Xcode[1698:88429] Received Ready from iOSSimulator
+14:32:15.548 Xcode[1698:88429] Sending notification: NSConcreteNotification 0x7fdb010b3150 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+}}
+14:32:19.495 Xcode[1698:1126433] testmanagerd handled session request.
+14:32:19.497 Xcode[1698:88429] Waiting for test process to launch.
+14:32:21.716 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Installed app at path: /Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app and options: {
+    CFBundleIdentifier = "none.UnitTest";
+}
+14:32:21.718 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Launching app with identifier: none.UnitTest and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app/UnitTest";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/y8/0p3zjr3s66z6k87rdx499p1h0000gn/T/com.apple.dt.XCTest/0E76FA54-12CC-4D16-A6D5-299293BD060C/remote-container/tmp/UnitTestTests-0E76FA54-12CC-4D16-A6D5-299293BD060C.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys007";
+    stdout = "/dev/ttys007";
+    "wait_for_debugger" = 1;
+}
+14:32:21.763 Xcode[1698:1126518] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Launched app with identifier: none.UnitTest (pid = 3262)
+14:32:21.764 Xcode[1698:1126518] Tracking pid 3262 for simulator <DVTiPhoneSimulator: 0x7fdafd807330> {
+		SimDevice: SimDevice : iPhone 5 (A3C4EC49-8775-4809-A1E8-5E458C87A8FA) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5 } runtime={ SimRuntime : 10.0 (14A345) - com.apple.CoreSimulator.SimRuntime.iOS-10-0 }
+}
+14:32:21.764 Xcode[1698:1126518] Checking to see if pid 3262 is valid: kill(pid, 0) = 0 (YES, it's still running)
+14:32:21.764 Xcode[1698:1126518] Setting up DVTNotifyOnProcDeath for pid 3262
+14:32:21.764 Xcode[1698:88429] Test process runnable PID is 3262.
+14:32:23.514 Xcode[1698:88429] Launch session finished initial intensive file IO.
+14:32:23.514 Xcode[1698:88429] Waiting for test process to check in..., will wait up to 120s
+14:32:24.312 Xcode[1698:1126518] Got proxy channel request from test bundle
+14:32:24.314 Xcode[1698:1126518] Test bundle is ready, running protocol 22, requires at least version 8. IDE is running 22 and requires at least 8
+14:32:24.314 Xcode[1698:1126519] Creating secondary transport and connection for whitelisting test process PID.
+14:32:24.314 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Registered for sim device notification, got token 15
+14:32:24.314 Xcode[1698:1126519] A3C4EC49-8775-4809-A1E8-5E458C87A8FA: Unregistering for sim device notification with token 15
+14:32:24.314 Xcode[1698:1126519] Sim iPhone 5 is booted (state = 3)
+14:32:24.314 Xcode[1698:1126519] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+14:32:24.315 Xcode[1698:1126519] Returning /private/tmp/com.apple.launchd.Zd0Yi8sipq/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+14:32:24.315 Xcode[1698:1126519] Sim iPhone 5 has testmanagerd socket at /private/tmp/com.apple.launchd.Zd0Yi8sipq/com.apple.testmanagerd.unix-domain.socket
+14:32:24.315 Xcode[1698:1126519] Connected socket 107 to testmanagerd for Sim iPhone 5
+14:32:24.315 Xcode[1698:1126519] Creating the daemon control connection.
+14:32:24.315 Xcode[1698:1126519] Resuming the secondary connection.
+14:32:24.315 Xcode[1698:1126519] Whitelisting test process ID 3262
+14:32:24.320 Xcode[1698:1126319] Got whitelisting response and daemon protocol version 22
+14:32:19.471 testmanagerd[3106:1126672] Launched testmanagerd from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/libexec/testmanagerd, built at Thursday, August 25, 2016 at 12:08:19 AM Central European Summer Time
+14:32:19.474 testmanagerd[3106:1127608] IDE connected over socket 5 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+14:32:19.475 testmanagerd[3106:1126672] Setting availability state.
+14:32:19.475 testmanagerd[3106:1127608] Created session with socket 5
+14:32:19.480 testmanagerd[3106:1126672] Posting availability to test bundles...
+14:32:19.492 testmanagerd[3106:1127608] Handled a proxy request from the IDE with session <XCIDESession: 0x7d983470> proxy <_DTXProxy: 0x7bf821a0>
+14:32:19.493 testmanagerd[3106:1126672] __84-[XCIDESession _IDE_initiateSessionWithIdentifier:forClient:atPath:protocolVersion:]_block_invoke 0E76FA54-12CC-4D16-A6D5-299293BD060C 1 5 from client 9E99E7DE-4526-4CD5-BCCB-29E126C29D6E-1698-00000B8F9DC4DAD2 (/Applications/Xcode.app)
+14:32:19.494 testmanagerd[3106:1127608] __45-[XCTestManager setIDESession:forIdentifier:]_block_invoke <XCIDESession: 0x7d983470> -> 0E76FA54-12CC-4D16-A6D5-299293BD060C
+14:32:24.322 testmanagerd[3106:1126672] Received request to collect crash reports in directories '/Users/enricopiovesan/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'UnitTest', 'xctest'
+14:32:19.496 testmanagerd[3106:1127608] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+14:32:24.186 testmanagerd[3106:1127610] Received new test session connection (-[XCTestManager listener:shouldAcceptNewConnection:])
+14:32:24.188 testmanagerd[3106:1126672] Initial orientation 0
+14:32:24.192 testmanagerd[3106:1127694] Test session 0E76FA54-12CC-4D16-A6D5-299293BD060C requested socket (-[XCTestSession _XCT_requestSocketForSessionIdentifier:reply:])
+14:32:24.192 testmanagerd[3106:1127693] app info {
+    BKSApplicationStateAppIsFrontmost = 1;
+    BKSApplicationStateExtensionKey = 0;
+    SBApplicationStateDisplayIDKey = "none.UnitTest";
+    SBApplicationStateKey = 8;
+    SBApplicationStateProcessIDKey = 3262;
+    SBMostElevatedStateForProcessID = 8;
+}
+14:32:24.192 testmanagerd[3106:1127611] Test session 0E76FA54-12CC-4D16-A6D5-299293BD060C requested socket (__57-[XCTestManager requestSocketForSessionIdentifier:reply:]_block_invoke)
+14:32:24.193 testmanagerd[3106:1127693] Got request for process assertion for pid 3262.
+14:32:24.324 testmanagerd[3106:1126672] Initializing crash report observer for /Users/enricopiovesan/Library/Logs/DiagnosticReports
+14:32:24.193 testmanagerd[3106:1127611] -[XCTestManager _handleRequestForSessionWithIdentifier:]
+14:32:24.328 testmanagerd[3106:1126672] Getting files in /Users/enricopiovesan/Library/Logs/DiagnosticReports
+14:32:24.193 testmanagerd[3106:1127611] Closing IDE connection before sending socket 7 to test host.
+14:32:24.193 testmanagerd[3106:1127693] Created process assertion for pid 3262: <BKSProcessAssertion: 0x7bf832f0>, waiting for response from assertiond.
+14:32:24.194 testmanagerd[3106:1127611] -[XCIDESession closeIDEConnection:] sending barrier
+14:32:24.194 testmanagerd[3106:1127693] Starting to monitor none.UnitTest
+14:32:24.194 testmanagerd[3106:1126672] barrier flushed, closing DTXConnection to IDE, socket will not be closed
+14:32:24.195 testmanagerd[3106:1127693] DTXSocketTransport disconnected
+14:32:24.196 testmanagerd[3106:1127694] Got application state update: none.UnitTest (3262) -> 8
+14:32:24.196 testmanagerd[3106:1127611] Got reply for process assertion request, success: YES
+14:32:24.196 testmanagerd[3106:1127608] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7d983470>
+14:32:24.196 testmanagerd[3106:1127608] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+14:32:24.309 testmanagerd[3106:1126672] Sending socket 7 to test host
+14:32:24.309 testmanagerd[3106:1127608] __33-[XCTestManager closeIDESession:]_block_invoke <XCIDESession: 0x7d983470>
+14:32:24.310 testmanagerd[3106:1127608] Considering exiting, 1 test sessions, 0 sessions with identifiers, 0 unidentified sessions, does not have control session...
+14:32:24.315 testmanagerd[3106:1127608] IDE connected over socket 6 (__47-[XCTestManagerIDEServer initWithListenSocket:]_block_invoke)
+14:32:24.316 testmanagerd[3106:1127608] Created session with socket 6
+14:32:24.317 testmanagerd[3106:1127608] Handled a proxy request from the IDE with session <XCIDESession: 0x7bf83600> proxy <_DTXProxy: 0x7be87710>
+14:32:24.318 testmanagerd[3106:1127608] -[XCIDESession _IDE_initiateControlSessionForTestProcessID:protocolVersion:] 3262 22
+14:32:24.319 testmanagerd[3106:1126672] Set control session <XCIDESession: 0x7bf83600> with proto 22 and proxy <_DTXProxy: 0x7be87710>
+14:32:24.348 testmanagerd[3106:1126672] Found 30 files in /Users/enricopiovesan/Library/Logs/DiagnosticReports
+14:32:24.349 testmanagerd[3106:1126672] Started monitoring /Users/enricopiovesan/Library/Logs/DiagnosticReports
+14:32:24.349 testmanagerd[3106:1126672] Initializing crash report observer for /Library/Logs/DiagnosticReports
+14:32:24.350 testmanagerd[3106:1126672] Getting files in /Library/Logs/DiagnosticReports
+14:32:24.405 testmanagerd[3106:1126672] Found 122 files in /Library/Logs/DiagnosticReports
+14:32:24.406 testmanagerd[3106:1126672] Started monitoring /Library/Logs/DiagnosticReports
+14:32:24.157 UnitTest[3262:1127656] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built at Monday, August 29, 2016 at 4:34:55 AM Central European Summer Time
+14:32:24.167 UnitTest[3262:1127656] System uptime: 6:24:10
+14:32:24.167 UnitTest[3262:1127656] Process arguments: (
+    "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Bundle/Application/8574B1B5-F664-48ED-89B9-B8F68C1D465F/UnitTest.app/UnitTest",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+14:32:24.168 UnitTest[3262:1127656] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/34CD1E8E-C724-4ED8-A3F3-B699FBC0DD92";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.HkrCG2kqQv/Listeners";
+    "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/34CD1E8E-C724-4ED8-A3F3-B699FBC0DD92";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.A3C4EC49-8775-4809-A1E8-5E458C87A8FA.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data";
+    "IPHONE_SIMULATOR_CLASS" = N41;
+    "IPHONE_SIMULATOR_DEVICE" = iPhone;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 5.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 5";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Library/Application Support/iPhone Simulator/com.apple.iphonesimulator/extended_display.plist";
+    "SIMULATOR_HOST_HOME" = "/Users/enricopiovesan";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/enricopiovesan/Library/Logs/CoreSimulator/A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1136;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 640;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone5,1";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14A345;
+    "SIMULATOR_RUNTIME_VERSION" = "10.0";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data";
+    "SIMULATOR_UDID" = "A3C4EC49-8775-4809-A1E8-5E458C87A8FA";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 303.8 - Device: iPhone 5 - Runtime: iOS 10.0 (14A345) - DeviceType: iPhone 5";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.Zd0Yi8sipq/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/enricopiovesan/Library/Developer/CoreSimulator/Devices/A3C4EC49-8775-4809-A1E8-5E458C87A8FA/data/Containers/Data/Application/34CD1E8E-C724-4ED8-A3F3-B699FBC0DD92/tmp";
+    XCInjectBundleInto = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.app/UnitTest";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/y8/0p3zjr3s66z6k87rdx499p1h0000gn/T/com.apple.dt.XCTest/0E76FA54-12CC-4D16-A6D5-299293BD060C/remote-container/tmp/UnitTestTests-0E76FA54-12CC-4D16-A6D5-299293BD060C.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:none.UnitTest[0xf425]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.A3C4EC49-8775-4809-A1E8-5E458C87A8FA.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator";
+}
+14:32:24.168 UnitTest[3262:1127656] Loading DTXConnectionServices from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework
+14:32:24.183 UnitTest[3262:1127656] Session ID 0E76FA54-12CC-4D16-A6D5-299293BD060C
+14:32:24.185 UnitTest[3262:1127656] Registering for testmanagerd availability notify post.
+14:32:24.185 UnitTest[3262:1127656] testmanagerd availability confirmed via notify_get_state.
+14:32:24.185 UnitTest[3262:1127656] Initiating connection to testmanagerd to request socket for IDE connection.
+14:32:24.186 UnitTest[3262:1127656] Requesting socket
+14:32:24.192 UnitTest[3262:1127689] Got daemon protocol version 6
+14:32:24.310 UnitTest[3262:1127689] Got socket 7 from daemon, making connection to IDE
+14:32:24.310 UnitTest[3262:1127689] Creating connection with transport
+14:32:24.310 UnitTest[3262:1127689] Resuming connection
+14:32:24.311 UnitTest[3262:1127689] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+14:32:24.413 UnitTest[3262:1127656] -[XCTestDriver _runSuite]
+14:32:24.414 Xcode[1698:88429] Starting test plan, clearing initialization timeout timer.
+14:32:24.413 UnitTest[3262:1127656] Loading test suite...
+14:32:24.416 UnitTest[3262:1127656] Finished loading test suite, took 0.002s
+14:32:24.416 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testBundleWillStart:]
+14:32:24.416 UnitTest[3262:1127656] Running suite...
+14:32:24.418 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testSuiteWillStart:]
+2016-12-09 14:32:24.012586 UnitTest[3262:1127688] subsystem: com.apple.UIKit, category: HIDEventFiltered, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-12-09 14:32:24.021298 UnitTest[3262:1127688] subsystem: com.apple.UIKit, category: HIDEventIncoming, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+2016-12-09 14:32:24.056841 UnitTest[3262:1127686] subsystem: com.apple.BaseBoard, category: MachPort, enable_level: 1, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+2016-12-09 14:32:24.094548 UnitTest[3262:1127656] subsystem: com.apple.UIKit, category: StatusBar, enable_level: 0, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 1, privacy_setting: 2, enable_private_data: 0
+140
+2016-12-09 14:32:24.148772 UnitTest[3262:1127656] subsystem: com.apple.BackBoardServices.fence, category: App, enable_level: 1, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0
+Test Suite 'Selected tests' started at 2016-12-09 14:32:24.417
+14:32:24.425 Xcode[1698:1126521] (LOG ARBITER) Rotating message buffer with 7 messages.
+14:32:24.443 Xcode[1698:1126518] (LOG ARBITER) Dumping buffered message data; 7 messages.
+Test Suite 'UnitTestTests.xctest' started at 2016-12-09 14:32:24.419
+Test Suite 'CarTests' started at 2016-12-09 14:32:24.420
+Test Case '-[UnitTestTests.CarTests testSportFasterThanJeep]' started.
+Test Case '-[UnitTestTests.CarTests testSportFasterThanJeep]' passed (0.002 seconds).
+Test Suite 'CarTests' passed at 2016-12-09 14:32:24.425.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.002 (0.005) seconds
+14:32:24.424 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testCaseDidFinish:]
+14:32:24.443 Xcode[1698:88429] _XCT_testCaseDidFinishForTestClass:UnitTestTests.CarTests method:testSportFasterThanJeep withStatus:passed duration:0.002062022686004639
+14:32:24.425 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+14:32:24.447 Xcode[1698:88429] _XCT_testSuite:CarTests didFinishAt:2016-12-09 13:32:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.002062022686004639 totalDuration:0.004517018795013428
+14:32:24.427 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+14:32:24.448 Xcode[1698:88429] _XCT_testSuite:UnitTestTests.xctest didFinishAt:2016-12-09 13:32:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.002062022686004639 totalDuration:0.007096052169799805
+14:32:24.428 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testSuiteDidFinish:]
+14:32:24.448 Xcode[1698:88429] _XCT_testSuite:Selected tests didFinishAt:2016-12-09 13:32:24 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.002062022686004639 totalDuration:0.01006603240966797
+14:32:24.430 UnitTest[3262:1127656] Finished running suite.
+14:32:24.431 UnitTest[3262:1127656] -[_XCTestDriverTestObserver testBundleDidFinish:], Flushing connection to IDE...
+14:32:24.449 Xcode[1698:88429] -[IDETestOperationCoordinator _XCT_didFinishExecutingTestPlan]
+14:32:24.449 Xcode[1698:88429] _finishWithError:(null) didCancel: 0

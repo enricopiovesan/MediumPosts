@@ -1,0 +1,255 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CarTests"
+provides-nominal:
+- "C13UnitTestTests8CarTests"
+provides-member:
+- ["C13UnitTestTests8CarTests", ""]
+provides-dynamic-lookup:
+- "testSportFasterThanJeep"
+- "tearDown"
+- "setUp"
+depends-top-level:
+- !private "XCTAssertTrue"
+- "CarTests"
+- "AssignmentPrecedence"
+- "XCTestCase"
+- !private "StringLiteralType"
+- !private ">"
+- "Car"
+depends-member:
+- !private ["Ps9AnyObject", "Car"]
+- !private ["Ps9AnyObject", "XCTAssertTrue"]
+- ["Ps9AnyObject", "ferrari"]
+- ["Ps9AnyObject", "honda"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "jeep"]
+- !private ["Ps9AnyObject", "miles"]
+- ["Ps9AnyObject", "setUp"]
+- !private ["Ps9AnyObject", "start"]
+- ["Ps9AnyObject", "tearDown"]
+- ["Ps9AnyObject", "testSportFasterThanJeep"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Car"]
+- !private ["Ps7CVarArg", "XCTAssertTrue"]
+- ["Ps7CVarArg", "ferrari"]
+- ["Ps7CVarArg", "honda"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "jeep"]
+- ["Ps7CVarArg", "setUp"]
+- ["Ps7CVarArg", "tearDown"]
+- ["Ps7CVarArg", "testSportFasterThanJeep"]
+- ["Ps7CVarArg", ""]
+- ["C8UnitTest3Car", "deinit"]
+- !private ["C8UnitTest3Car", "init"]
+- !private ["C8UnitTest3Car", "miles"]
+- !private ["C8UnitTest3Car", "start"]
+- ["C13UnitTestTests8CarTests", "Car"]
+- !private ["C13UnitTestTests8CarTests", "XCTAssertTrue"]
+- ["C13UnitTestTests8CarTests", "deinit"]
+- ["C13UnitTestTests8CarTests", "ferrari"]
+- ["C13UnitTestTests8CarTests", "honda"]
+- ["C13UnitTestTests8CarTests", "init"]
+- ["C13UnitTestTests8CarTests", "jeep"]
+- ["C13UnitTestTests8CarTests", "setUp"]
+- ["C13UnitTestTests8CarTests", "tearDown"]
+- ["C13UnitTestTests8CarTests", "testSportFasterThanJeep"]
+- !private ["O8UnitTest19CarTransmissionMode", "Drive"]
+- !private ["O8UnitTest19CarTransmissionMode", "Park"]
+- ["O8UnitTest19CarTransmissionMode", "deinit"]
+- !private ["O8UnitTest7CarType", "Economy"]
+- !private ["O8UnitTest7CarType", "OffRoad"]
+- !private ["O8UnitTest7CarType", "Sport"]
+- ["O8UnitTest7CarType", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Car"]
+- !private ["Ps28CustomDebugStringConvertible", "XCTAssertTrue"]
+- ["Ps28CustomDebugStringConvertible", "ferrari"]
+- ["Ps28CustomDebugStringConvertible", "honda"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "jeep"]
+- ["Ps28CustomDebugStringConvertible", "setUp"]
+- ["Ps28CustomDebugStringConvertible", "tearDown"]
+- ["Ps28CustomDebugStringConvertible", "testSportFasterThanJeep"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Car"]
+- !private ["Ps23CustomStringConvertible", "XCTAssertTrue"]
+- ["Ps23CustomStringConvertible", "ferrari"]
+- ["Ps23CustomStringConvertible", "honda"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "jeep"]
+- ["Ps23CustomStringConvertible", "setUp"]
+- ["Ps23CustomStringConvertible", "tearDown"]
+- ["Ps23CustomStringConvertible", "testSportFasterThanJeep"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Car"]
+- !private ["Ps9Equatable", "Drive"]
+- !private ["Ps9Equatable", "Economy"]
+- !private ["Ps9Equatable", "OffRoad"]
+- !private ["Ps9Equatable", "Park"]
+- !private ["Ps9Equatable", "Sport"]
+- !private ["Ps9Equatable", "XCTAssertTrue"]
+- ["Ps9Equatable", "ferrari"]
+- ["Ps9Equatable", "honda"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "jeep"]
+- ["Ps9Equatable", "setUp"]
+- ["Ps9Equatable", "tearDown"]
+- ["Ps9Equatable", "testSportFasterThanJeep"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Car"]
+- !private ["Ps8Hashable", "Drive"]
+- !private ["Ps8Hashable", "Economy"]
+- !private ["Ps8Hashable", "OffRoad"]
+- !private ["Ps8Hashable", "Park"]
+- !private ["Ps8Hashable", "Sport"]
+- !private ["Ps8Hashable", "XCTAssertTrue"]
+- ["Ps8Hashable", "ferrari"]
+- ["Ps8Hashable", "honda"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "jeep"]
+- ["Ps8Hashable", "setUp"]
+- ["Ps8Hashable", "tearDown"]
+- ["Ps8Hashable", "testSportFasterThanJeep"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- ["CSo8NSObject", "Car"]
+- !private ["CSo8NSObject", "XCTAssertTrue"]
+- ["CSo8NSObject", "ferrari"]
+- ["CSo8NSObject", "honda"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "jeep"]
+- ["CSo8NSObject", "setUp"]
+- ["CSo8NSObject", "tearDown"]
+- ["CSo8NSObject", "testSportFasterThanJeep"]
+- !private ["PSo16NSObjectProtocol", "Car"]
+- !private ["PSo16NSObjectProtocol", "XCTAssertTrue"]
+- ["PSo16NSObjectProtocol", "ferrari"]
+- ["PSo16NSObjectProtocol", "honda"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "jeep"]
+- ["PSo16NSObjectProtocol", "setUp"]
+- ["PSo16NSObjectProtocol", "tearDown"]
+- ["PSo16NSObjectProtocol", "testSportFasterThanJeep"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["Su", "deinit"]
+- ["CSo6XCTest", "Car"]
+- !private ["CSo6XCTest", "XCTAssertTrue"]
+- ["CSo6XCTest", "ferrari"]
+- ["CSo6XCTest", "honda"]
+- ["CSo6XCTest", "init"]
+- ["CSo6XCTest", "jeep"]
+- ["CSo6XCTest", "setUp"]
+- ["CSo6XCTest", "tearDown"]
+- ["CSo6XCTest", "testSportFasterThanJeep"]
+- ["CSo10XCTestCase", "Car"]
+- !private ["CSo10XCTestCase", "XCTAssertTrue"]
+- ["CSo10XCTestCase", "deinit"]
+- ["CSo10XCTestCase", "ferrari"]
+- ["CSo10XCTestCase", "honda"]
+- ["CSo10XCTestCase", "init"]
+- ["CSo10XCTestCase", "jeep"]
+- ["CSo10XCTestCase", "setUp"]
+- ["CSo10XCTestCase", "tearDown"]
+- ["CSo10XCTestCase", "testSportFasterThanJeep"]
+- ["CSo10XCTestCase", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "Car"]
+- !private ["Ps9_Hashable", "Drive"]
+- !private ["Ps9_Hashable", "Economy"]
+- !private ["Ps9_Hashable", "OffRoad"]
+- !private ["Ps9_Hashable", "Park"]
+- !private ["Ps9_Hashable", "Sport"]
+- !private ["Ps9_Hashable", "XCTAssertTrue"]
+- ["Ps9_Hashable", "ferrari"]
+- ["Ps9_Hashable", "honda"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "jeep"]
+- ["Ps9_Hashable", "setUp"]
+- ["Ps9_Hashable", "tearDown"]
+- ["Ps9_Hashable", "testSportFasterThanJeep"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "C8UnitTest3Car"
+- "C13UnitTestTests8CarTests"
+- "O8UnitTest19CarTransmissionMode"
+- "O8UnitTest7CarType"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "V10ObjectiveC8Selector"
+- "Vs12StaticString"
+- "Su"
+- "CSo6XCTest"
+- "CSo10XCTestCase"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/XCTest.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIRemote.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIKeyboardKeys.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementQuery.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUICoordinate.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIDevice.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypeQueryProvider.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementTypes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElementAttributes.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIElement.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCUIApplication.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuiteRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestSuite.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestProbe.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObservationCenter.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestObserver.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestLog.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestExpectation.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCaseRun.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase+AsynchronousTesting.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestCase.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertionsImpl.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestAssertions.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCAbstractTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestErrors.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTestDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/enricopiovesan/Desktop/UnitTest/DerivedData/UnitTest/Build/Products/Debug-iphonesimulator/UnitTest.swiftmodule/i386.swiftmodule"
+interface-hash: "0ac506da6a34a0ae2b1cb5e9615b09bd"

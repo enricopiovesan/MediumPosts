@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "b873bce2b49774b52a6f5cbdcaf6b3ec"
+build_time: [534605532, 654129000]
+inputs:
+  "/Users/enricopiovesan/Desktop/UnitTest/UnitTest/CarTests.swift": [534605467, 0]
+  "/Users/enricopiovesan/Desktop/UnitTest/UnitTestTests/UnitTestTests.swift": [534590234, 0]
