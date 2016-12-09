@@ -1,6 +1,6 @@
 # Source code of my Medium Posts
 
-posts at [medium.com/@enricopiovesan](https://medium.com/@enricopiovesan)
+Check out my posts at [medium.com/@enricopiovesan](https://medium.com/@enricopiovesan)
 
 ![posts](https://cdn-images-1.medium.com/max/800/1*eJDM-QO1fN4gV5gU85ldcA.gif)
 
