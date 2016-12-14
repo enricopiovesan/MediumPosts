@@ -1,4 +1,4 @@
-class MessengerController < Messenger::MessengerController
+avavlsanlsclass MessengerController < Messenger::MessengerController
 
   def webhook
     #logic here
