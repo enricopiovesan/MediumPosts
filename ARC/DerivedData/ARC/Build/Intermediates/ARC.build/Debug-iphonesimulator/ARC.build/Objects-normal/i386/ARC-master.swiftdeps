@@ -1,8 +1,0 @@
-version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
-options: "52505e66b67e9ba59fcbe0fbf317e3d5"
-build_time: [535038009, 614257000]
-inputs:
-  "/Users/enricopiovesan/Documents/lavori/MediumPosts/ARC/ARC/Vehicle.swift": [535037993, 0]
-  "/Users/enricopiovesan/Documents/lavori/MediumPosts/ARC/ARC/Stormtrooper.swift": [535037973, 0]
-  "/Users/enricopiovesan/Documents/lavori/MediumPosts/ARC/ARC/ViewController.swift": [535029168, 0]
-  "/Users/enricopiovesan/Documents/lavori/MediumPosts/ARC/ARC/AppDelegate.swift": [534874119, 0]
