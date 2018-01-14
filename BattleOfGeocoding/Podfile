@@ -1,0 +1,10 @@
+#Podfile
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+target 'BattleOfGeocoding' do
+    #HTTP networking library
+    pod 'Alamofire', '~> 4.5'
+    #Promise
+    pod 'PromiseKit', '~> 4.4'
+end

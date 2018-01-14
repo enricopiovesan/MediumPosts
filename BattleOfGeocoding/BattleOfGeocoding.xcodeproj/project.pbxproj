@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F49152D581FA941D9BB6D48 /* Pods_BattleOfGeocoding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB08886CE4DD079E13DAE341 /* Pods_BattleOfGeocoding.framework */; };
+		F5C552FB200AC9C40068A487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C552FA200AC9C40068A487 /* AppDelegate.swift */; };
+		F5C552FD200AC9C40068A487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C552FC200AC9C40068A487 /* ViewController.swift */; };
+		F5C55300200AC9C40068A487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C552FE200AC9C40068A487 /* Main.storyboard */; };
+		F5C55302200AC9C40068A487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C55301200AC9C40068A487 /* Assets.xcassets */; };
+		F5C55305200AC9C40068A487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C55303200AC9C40068A487 /* LaunchScreen.storyboard */; };
+		F5C55311200ACA520068A487 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5530F200ACA520068A487 /* Errors.swift */; };
+		F5C55312200ACA520068A487 /* URLGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55310200ACA520068A487 /* URLGenerator.swift */; };
+		F5C55316200ACA5C0068A487 /* Geocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55314200ACA5C0068A487 /* Geocoding.swift */; };
+		F5C55317200ACA5C0068A487 /* GeocodingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55315200ACA5C0068A487 /* GeocodingResult.swift */; };
+		F5C5531A200ACA6C0068A487 /* NativeGeocoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55319200ACA6C0068A487 /* NativeGeocoding.swift */; };
+		F5C5531F200ACA750068A487 /* GeocodingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5531C200ACA750068A487 /* GeocodingRequest.swift */; };
+		F5C55320200ACA750068A487 /* GeocodingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5531D200ACA750068A487 /* GeocodingManager.swift */; };
+		F5C55321200ACA750068A487 /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5531E200ACA750068A487 /* GeocodingService.swift */; };
+		F5C55324200ADA470068A487 /* ResultGeocodingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C55323200ADA470068A487 /* ResultGeocodingCellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2768B038184EE30C62516845 /* Pods-BattleOfGeocoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BattleOfGeocoding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BattleOfGeocoding/Pods-BattleOfGeocoding.debug.xcconfig"; sourceTree = "<group>"; };
+		69AE790DBCABF63EB9D7B652 /* Pods-BattleOfGeocoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BattleOfGeocoding.release.xcconfig"; path = "Pods/Target Support Files/Pods-BattleOfGeocoding/Pods-BattleOfGeocoding.release.xcconfig"; sourceTree = "<group>"; };
+		DB08886CE4DD079E13DAE341 /* Pods_BattleOfGeocoding.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BattleOfGeocoding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C552F7200AC9C40068A487 /* BattleOfGeocoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOfGeocoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C552FA200AC9C40068A487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5C552FC200AC9C40068A487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5C552FF200AC9C40068A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5C55301200AC9C40068A487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5C55304200AC9C40068A487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5C55306200AC9C40068A487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C5530F200ACA520068A487 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		F5C55310200ACA520068A487 /* URLGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLGenerator.swift; sourceTree = "<group>"; };
+		F5C55314200ACA5C0068A487 /* Geocoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geocoding.swift; sourceTree = "<group>"; };
+		F5C55315200ACA5C0068A487 /* GeocodingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingResult.swift; sourceTree = "<group>"; };
+		F5C55319200ACA6C0068A487 /* NativeGeocoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeGeocoding.swift; sourceTree = "<group>"; };
+		F5C5531C200ACA750068A487 /* GeocodingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingRequest.swift; sourceTree = "<group>"; };
+		F5C5531D200ACA750068A487 /* GeocodingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingManager.swift; sourceTree = "<group>"; };
+		F5C5531E200ACA750068A487 /* GeocodingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
+		F5C55323200ADA470068A487 /* ResultGeocodingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultGeocodingCellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5C552F4200AC9C40068A487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49152D581FA941D9BB6D48 /* Pods_BattleOfGeocoding.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7C69F74D3AE622C123E774 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB08886CE4DD079E13DAE341 /* Pods_BattleOfGeocoding.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA451EBB56EF03ABB8C0C1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2768B038184EE30C62516845 /* Pods-BattleOfGeocoding.debug.xcconfig */,
+				69AE790DBCABF63EB9D7B652 /* Pods-BattleOfGeocoding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5C552EE200AC9C40068A487 = {
+			isa = PBXGroup;
+			children = (
+				F5C552F9200AC9C40068A487 /* BattleOfGeocoding */,
+				F5C552F8200AC9C40068A487 /* Products */,
+				EA451EBB56EF03ABB8C0C1B8 /* Pods */,
+				3D7C69F74D3AE622C123E774 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5C552F8200AC9C40068A487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C552F7200AC9C40068A487 /* BattleOfGeocoding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5C552F9200AC9C40068A487 /* BattleOfGeocoding */ = {
+			isa = PBXGroup;
+			children = (
+				F5C55322200ADA340068A487 /* Views */,
+				F5C5531B200ACA750068A487 /* Network */,
+				F5C55318200ACA6C0068A487 /* Controllers */,
+				F5C55313200ACA5C0068A487 /* Models */,
+				F5C5530E200ACA380068A487 /* Utilities */,
+				F5C552FA200AC9C40068A487 /* AppDelegate.swift */,
+				F5C552FC200AC9C40068A487 /* ViewController.swift */,
+				F5C552FE200AC9C40068A487 /* Main.storyboard */,
+				F5C55301200AC9C40068A487 /* Assets.xcassets */,
+				F5C55303200AC9C40068A487 /* LaunchScreen.storyboard */,
+				F5C55306200AC9C40068A487 /* Info.plist */,
+			);
+			path = BattleOfGeocoding;
+			sourceTree = "<group>";
+		};
+		F5C5530E200ACA380068A487 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5C5530F200ACA520068A487 /* Errors.swift */,
+				F5C55310200ACA520068A487 /* URLGenerator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F5C55313200ACA5C0068A487 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5C55314200ACA5C0068A487 /* Geocoding.swift */,
+				F5C55315200ACA5C0068A487 /* GeocodingResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5C55318200ACA6C0068A487 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5C55319200ACA6C0068A487 /* NativeGeocoding.swift */,
+			);
+			name = Controllers;
+			path = ../../ReverseGeocoding/ReverseGeocoding/Controllers;
+			sourceTree = "<group>";
+		};
+		F5C5531B200ACA750068A487 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F5C5531C200ACA750068A487 /* GeocodingRequest.swift */,
+				F5C5531D200ACA750068A487 /* GeocodingManager.swift */,
+				F5C5531E200ACA750068A487 /* GeocodingService.swift */,
+			);
+			name = Network;
+			path = ../../ReverseGeocoding/ReverseGeocoding/Network;
+			sourceTree = "<group>";
+		};
+		F5C55322200ADA340068A487 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5C55323200ADA470068A487 /* ResultGeocodingCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5C552F6200AC9C40068A487 /* BattleOfGeocoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C55309200AC9C40068A487 /* Build configuration list for PBXNativeTarget "BattleOfGeocoding" */;
+			buildPhases = (
+				4CB7B5B773DF122D13205DBA /* [CP] Check Pods Manifest.lock */,
+				F5C552F3200AC9C40068A487 /* Sources */,
+				F5C552F4200AC9C40068A487 /* Frameworks */,
+				F5C552F5200AC9C40068A487 /* Resources */,
+				AADA8E5DF6BFC397139B29B6 /* [CP] Embed Pods Frameworks */,
+				5241EBED64F4EDA3AB9B1ADD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleOfGeocoding;
+			productName = BattleOfGeocoding;
+			productReference = F5C552F7200AC9C40068A487 /* BattleOfGeocoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5C552EF200AC9C40068A487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Enrico Piovesan";
+				TargetAttributes = {
+					F5C552F6200AC9C40068A487 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F5C552F2200AC9C40068A487 /* Build configuration list for PBXProject "BattleOfGeocoding" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5C552EE200AC9C40068A487;
+			productRefGroup = F5C552F8200AC9C40068A487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5C552F6200AC9C40068A487 /* BattleOfGeocoding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5C552F5200AC9C40068A487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C55305200AC9C40068A487 /* LaunchScreen.storyboard in Resources */,
+				F5C55302200AC9C40068A487 /* Assets.xcassets in Resources */,
+				F5C55300200AC9C40068A487 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CB7B5B773DF122D13205DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5241EBED64F4EDA3AB9B1ADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BattleOfGeocoding/Pods-BattleOfGeocoding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADA8E5DF6BFC397139B29B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BattleOfGeocoding/Pods-BattleOfGeocoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5C552F3200AC9C40068A487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C55324200ADA470068A487 /* ResultGeocodingCellView.swift in Sources */,
+				F5C55316200ACA5C0068A487 /* Geocoding.swift in Sources */,
+				F5C55321200ACA750068A487 /* GeocodingService.swift in Sources */,
+				F5C5531F200ACA750068A487 /* GeocodingRequest.swift in Sources */,
+				F5C552FD200AC9C40068A487 /* ViewController.swift in Sources */,
+				F5C55317200ACA5C0068A487 /* GeocodingResult.swift in Sources */,
+				F5C55311200ACA520068A487 /* Errors.swift in Sources */,
+				F5C552FB200AC9C40068A487 /* AppDelegate.swift in Sources */,
+				F5C55312200ACA520068A487 /* URLGenerator.swift in Sources */,
+				F5C5531A200ACA6C0068A487 /* NativeGeocoding.swift in Sources */,
+				F5C55320200ACA750068A487 /* GeocodingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5C552FE200AC9C40068A487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C552FF200AC9C40068A487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5C55303200AC9C40068A487 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5C55304200AC9C40068A487 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5C55307200AC9C40068A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5C55308200AC9C40068A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5C5530A200AC9C40068A487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2768B038184EE30C62516845 /* Pods-BattleOfGeocoding.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYRKU6H83;
+				INFOPLIST_FILE = BattleOfGeocoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.BattleOfGeocoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5C5530B200AC9C40068A487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AE790DBCABF63EB9D7B652 /* Pods-BattleOfGeocoding.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9JYRKU6H83;
+				INFOPLIST_FILE = BattleOfGeocoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = None.BattleOfGeocoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5C552F2200AC9C40068A487 /* Build configuration list for PBXProject "BattleOfGeocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C55307200AC9C40068A487 /* Debug */,
+				F5C55308200AC9C40068A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C55309200AC9C40068A487 /* Build configuration list for PBXNativeTarget "BattleOfGeocoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C5530A200AC9C40068A487 /* Debug */,
+				F5C5530B200AC9C40068A487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5C552EF200AC9C40068A487 /* Project object */;
+}
